@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Account", "Account\Account.vcxproj", "{C627E4BD-D7A8-465D-A08F-285A6FD3B052}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyPoint", "MyPoint\MyPoint.vcxproj", "{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StackOfIntegers", "StackOfIntegers\StackOfIntegers.vcxproj", "{0CC5257A-83B7-4598-BA0E-A41FE1B21727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C627E4BD-D7A8-465D-A08F-285A6FD3B052}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C627E4BD-D7A8-465D-A08F-285A6FD3B052}.Debug|Win32.Build.0 = Debug|Win32
+		{C627E4BD-D7A8-465D-A08F-285A6FD3B052}.Release|Win32.ActiveCfg = Release|Win32
+		{C627E4BD-D7A8-465D-A08F-285A6FD3B052}.Release|Win32.Build.0 = Release|Win32
+		{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}.Debug|Win32.Build.0 = Debug|Win32
+		{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}.Release|Win32.ActiveCfg = Release|Win32
+		{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}.Release|Win32.Build.0 = Release|Win32
+		{0CC5257A-83B7-4598-BA0E-A41FE1B21727}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CC5257A-83B7-4598-BA0E-A41FE1B21727}.Debug|Win32.Build.0 = Debug|Win32
+		{0CC5257A-83B7-4598-BA0E-A41FE1B21727}.Release|Win32.ActiveCfg = Release|Win32
+		{0CC5257A-83B7-4598-BA0E-A41FE1B21727}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
