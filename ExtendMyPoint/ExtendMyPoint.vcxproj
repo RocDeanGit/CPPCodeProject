@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2FD8CD43-A31C-4341-B83F-AF4FE41DD176}</ProjectGuid>
-    <RootNamespace>MyPoint</RootNamespace>
+    <ProjectGuid>{3F117E83-5142-4B7D-9A5C-70105F49B98E}</ProjectGuid>
+    <RootNamespace>ExtendMyPoint</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -62,11 +62,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="My3DPoint.h" />
     <ClInclude Include="MyPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="My3DPoint.cpp" />
     <ClCompile Include="MyPoint.cpp" />
-    <ClCompile Include="TestMyPointClass.cpp" />
+    <ClCompile Include="Test3DPointClass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

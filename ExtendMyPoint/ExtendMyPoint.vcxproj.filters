@@ -15,15 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="My3DPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="MyPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="My3DPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="MyPoint.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TestMyPointClass.cpp">
+    <ClCompile Include="Test3DPointClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
