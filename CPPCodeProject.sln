@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExtendMyPoint", "ExtendMyPo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loan", "Loan\Loan.vcxproj", "{CEB2CDE7-AAC2-4007-AA93-0C15294342CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Circle", "Circle\Circle.vcxproj", "{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{CEB2CDE7-AAC2-4007-AA93-0C15294342CA}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{CEB2CDE7-AAC2-4007-AA93-0C15294342CA}.Release|Win32.ActiveCfg = Release|Win32
 		{CEB2CDE7-AAC2-4007-AA93-0C15294342CA}.Release|Win32.Build.0 = Release|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Debug|Win32.Build.0 = Debug|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Release|Win32.ActiveCfg = Release|Win32
+		{A1BABDDC-F58C-4AD8-8CAE-E581274308E8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
