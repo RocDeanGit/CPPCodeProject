@@ -20,14 +20,13 @@
 
 +实验五：Loan对象
 
-#计划中
-
-
 +实验六：Circle类
 
 +实验七：修改StackOfIntegers类
 
 +实验八：扩展Stack类
+
+#计划中
 
 +书上某些习题
 
