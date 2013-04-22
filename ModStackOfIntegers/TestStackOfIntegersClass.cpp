@@ -9,7 +9,7 @@ int main(){
 	cin>>num;
 	int tmp=num;
 	StackOfIntegers soi;
-	for(int i=2;i<num;i++){
+	for(int i=2;i<=num;i++){
 		while(tmp%i==0){
 			tmp/=i;
 			soi.push(i);
@@ -17,9 +17,9 @@ int main(){
 	}
 	cout<<"The "<<num<<" вђзг is ";
 	try{
-	while(soi.getSize()+5>0){
-		cout<<soi.pop()<<" ";
-	}
+		while(soi.getSize()+1>0){
+			cout<<soi.pop()<<" ";
+		}
 	}
 	catch(EmptyStackException &e){
 		cout<<endl<<e.what()<<endl;

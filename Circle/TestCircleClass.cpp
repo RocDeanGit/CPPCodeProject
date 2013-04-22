@@ -2,10 +2,19 @@
 #include <iostream>
 using namespace std;
 int main(){
-	Circle c[]={Circle(5),Circle(4),Circle(1),Circle(9),Circle(7),Circle(2),Circle(3),Circle(10),Circle(15),Circle(6)};
+	int n;	
+	double radius;
+	Circle c[100];
 	Circle tmp;
-	for(int i=0;i<10;i++){
-		for(int j=0;j<9;j++){
+	cout<<"请输入要创建的圆的数量:";
+	cin>>n;
+	cout<<"依次输入各个圆的半径"<<endl;
+	for(int i=0;i<n;i++){
+		cin>>radius;
+		c[i]=Circle(radius);
+	}
+	for(int i=0;i<n;i++){
+		for(int j=0;j<n-1;j++){
 			if(c[j]>c[j+1]){
 				tmp=c[j];
 				c[j]=c[j+1];
@@ -13,7 +22,7 @@ int main(){
 			}
 		}
 	}
-	for(int i=0;i<10;i++){
+	for(int i=0;i<n;i++){
 		cout<<c[i].getRadius()<<" ";
 	}
 	cout<<endl;
