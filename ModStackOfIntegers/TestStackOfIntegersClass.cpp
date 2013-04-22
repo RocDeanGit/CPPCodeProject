@@ -9,7 +9,7 @@ int main(){
 	cin>>num;
 	int tmp=num;
 	StackOfIntegers soi;
-	for(int i=2;i<=num;i++){
+	for(int i=2;i<=tmp;i++){
 		while(tmp%i==0){
 			tmp/=i;
 			soi.push(i);
